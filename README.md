@@ -1,6 +1,8 @@
 ![Yamdb workflow](https://github.com/AndrewNemz/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-# yamdb_final
+# yamdb_final 
+
+(ссылка на документацию проекта: http://51.250.85.242/redoc/)
 
 Учебный проект 16 спринта факультета бэкенд-разработки
 
