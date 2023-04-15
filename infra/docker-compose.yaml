@@ -10,7 +10,7 @@ services:
 
   web:
     image: andrewnemo/yamdb_final:latest
-    #build: ../yamdb_final/
+    build: ../yamdb_final/
     restart: always
     volumes:
       - static_value:/app/static/
