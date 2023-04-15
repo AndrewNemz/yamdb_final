@@ -4,12 +4,13 @@ services:
   db:
     image: postgres:13.0-alpine
     volumes:
-      - database:/var/lib/postgresql/data/
+      - db:/var/lib/postgresql/data/
     env_file:
       - ./.env
+
   web:
     image: andrewnemo/yamdb_final:latest
-    build: ../yamdb_final/
+    #build: ../yamdb_final/
     restart: always
     volumes:
       - static_value:/app/static/
@@ -35,4 +36,4 @@ services:
 volumes:
   static_value:
   media_value:
-  database:
+  db:
