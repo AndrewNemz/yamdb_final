@@ -10,6 +10,7 @@
 ### Технологии
 - Python 3.7
 - Django
+- API
 - Docker
 - Nginx
 
@@ -255,6 +256,6 @@ pip install -r requirements.txt
       ```
 
 
-### Автор проекта:
-    https://github.com/AndrewNemz
+### Информация об авторе проекта:
+Студент back-end факультета ЯндексПрактикум: https://github.com/AndrewNemz
 
